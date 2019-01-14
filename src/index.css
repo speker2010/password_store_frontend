@@ -12,3 +12,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.login-page {
+  background: #61dafb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.login-form {
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(33, 33, 33, 0.3);
+  background: #fff;
+  padding: 60px 60px;
+}
+
+.login-form__headline {
+  margin-bottom: 40px;
+  margin-top: 0;
+}
