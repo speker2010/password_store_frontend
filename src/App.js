@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import ProjectsListPage from "./components/ProjectsListPage";
+
+import UsersNGroupsPage from "./components/UsersNGroupsPage";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <ProjectsListPage/>
+        <UsersNGroupsPage/>
       </div>
     );
   }
