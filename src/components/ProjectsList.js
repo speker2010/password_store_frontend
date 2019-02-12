@@ -7,12 +7,15 @@ export default class ProjectsList extends Component {
         this.state = {
             projects: [
                 {
+                    id:1,
                     name: 'project1'
                 },
                 {
+                    id:2,
                     name: 'project2'
                 },
                 {
+                    id:3,
                     name: 'project3'
                 }
             ]
@@ -21,7 +24,7 @@ export default class ProjectsList extends Component {
 
     render() {
         let projects = this.state.projects.map((elem, index) => {
-            return <ProjectItem key={index} name={elem.name}/>
+            return <ProjectItem key={elem.id} name={elem.name} id={elem.id}/>
         });
         return <div className="projects-list">
             {projects}
