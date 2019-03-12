@@ -1,0 +1,16 @@
+.b-add-button {
+    background: lightgreen;
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(144, 144, 144, 0.6);
+    color: #fff;
+    cursor: pointer;
+    font-size: 70px;
+    font-weight: 500;
+    position: fixed;
+    line-height: 42px;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+}
