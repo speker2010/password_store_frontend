@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ProjectsList from "./ProjectsList";
 import Search from "./Search";
 import AddButton from "./AddButton";
+import Modal from "./Modal";
 
 
 export default class ProjectsListPage extends Component {
@@ -13,6 +14,7 @@ export default class ProjectsListPage extends Component {
             </div>
             <ProjectsList/>
             <AddButton/>
+            <Modal/>
         </div>
     }
 }
